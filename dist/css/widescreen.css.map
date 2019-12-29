@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,AAAC,CACH,SAAS,CAAE,MAAM,CAClB,AAED,AACE,GADC,CACD,CAAC,AAAC,CACA,SAAS,CAAE,iBAAiB,CAC7B,AAGH,AAAA,KAAK,AAAC,CACJ,cAAc,CAAE,MAAM,CACvB,AAED,AAEE,MAFI,CAEJ,IAAI,AAAC,CACH,MAAM,CAAE,GAAG,CACZ",
+    "sources": [
+        "../../styles/widescreen.scss"
+    ],
+    "names": [],
+    "file": "widescreen.css"
+}
