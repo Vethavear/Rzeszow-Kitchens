@@ -1,5 +1,5 @@
 document.addEventListener('click', e => {
-  if (e.target.matches('.items .item')) {
+  if (e.target.closest('.item')) {
     let currentImg = e.target;
     const children = currentImg.parentNode.children;
     const len = children.length;

@@ -1,2 +1,19 @@
-.ts3{font-size:1.3rem}nav p{font-size:1.4rem !important}#smth{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}#offer .img{height:50%}
+.ts3 {
+  font-size: 1.3rem;
+}
+
+nav p {
+  font-size: 1.4rem !important;
+}
+
+#smth {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#offer .img {
+  height: 50%;
+}
 /*# sourceMappingURL=widescreen.css.map */
