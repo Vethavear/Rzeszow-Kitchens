@@ -70,10 +70,6 @@ const divsTranslate = () => {
 }
 window.addEventListener('scroll', divsTranslate);
 
-const animateLapse = () => {
-
-}
-
 
 $('a, button').on('click', function (event) {
   if (this.hash !== '') {
