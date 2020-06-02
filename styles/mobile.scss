@@ -22,6 +22,7 @@ $box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
   font-size: 1rem;
 }
 
+
 nav {
 
   * {
@@ -30,8 +31,6 @@ nav {
 
   .logo {
     padding: 0 0.25rem !important;
-
-    // display: none;
     p {
       font-size: 1.2rem !important;
       font-weight: bold;
@@ -61,7 +60,7 @@ nav {
   .burger {
     display: block !important;
     height: 5vh;
-
+overflow: hidden;
 
     div {
       background: #EFA647;
@@ -72,7 +71,14 @@ nav {
   padding:0 !important;
 }
 
-
+@media (orientation:landscape){
+  nav{
+    height:15vh;
+    .burger{
+      height:10vh;
+    }
+  }
+  }
 
 #slideshow {
   display: none;
@@ -144,13 +150,26 @@ nav {
 
   .row {
     width: 100%;
+    input,textarea{
+      width:100%;
+    }
   }
 
   #email {
     width: 100%;
   }
-}
 
+}
+#map{
+  img{
+    &:first-child{
+      display:none;
+    }
+    display: block;
+    height:100%;
+    width:100%;
+  }
+}
 #gallery {
   .item {
     width: 100%;

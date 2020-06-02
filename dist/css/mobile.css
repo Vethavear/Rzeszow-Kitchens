@@ -70,12 +70,22 @@ nav ul a {
 nav .burger {
   display: block !important;
   height: 5vh;
+  overflow: hidden;
 }
 
 nav .burger div {
   background: #EFA647;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+}
+
+@media (orientation: landscape) {
+  nav {
+    height: 15vh;
+  }
+  nav .burger {
+    height: 10vh;
+  }
 }
 
 #slideshow {
@@ -147,11 +157,24 @@ nav .burger div {
   width: 100%;
 }
 
+#contact .row input, #contact .row textarea {
+  width: 100%;
+}
+
 #contact #email {
   width: 100%;
+}
+
+#map img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+#map img:first-child {
+  display: none;
 }
 
 #gallery .item {
   width: 100%;
 }
-/*# sourceMappingURL=mobile.css.map */
