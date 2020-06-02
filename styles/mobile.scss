@@ -161,14 +161,17 @@ overflow: hidden;
 
 }
 #map{
-  img{
-    &:first-child{
-      display:none;
+  @media (orientation: portrait) {
+    img{
+      &:first-child{
+        display:none;
+      }
+      display: block;
+      height:100%;
+      width:100%;
     }
-    display: block;
-    height:100%;
-    width:100%;
   }
+
 }
 #gallery {
   .item {

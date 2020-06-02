@@ -279,6 +279,29 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  overflow: visible;
+  position: relative;
+}
+
+nav ul li::after {
+  content: '';
+  position: absolute;
+  bottom: -5%;
+  left: 20%;
+  right: 20%;
+  height: 2px;
+  background: #EFA647;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+nav ul li:hover::after {
+  opacity: 100;
 }
 
 nav .logo p {

@@ -165,14 +165,15 @@ nav .burger div {
   width: 100%;
 }
 
-#map img {
-  display: block;
-  height: 100%;
-  width: 100%;
-}
-
-#map img:first-child {
-  display: none;
+@media (orientation: portrait) {
+  #map img {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  #map img:first-child {
+    display: none;
+  }
 }
 
 #gallery .item {
