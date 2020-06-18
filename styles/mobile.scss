@@ -51,10 +51,12 @@ nav {
     width: 40%;
     height: 100vh;
     background: #E0D2C0;
-
-    a {
-      color: black;
-    }
+li{
+overflow: hidden;
+  a {
+    color: black;
+  }
+}
   }
 
   .burger {

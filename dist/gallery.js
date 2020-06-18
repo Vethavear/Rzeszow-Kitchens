@@ -127,7 +127,6 @@ document.addEventListener('click', e => {
 const navSlide = () => {
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('#links');
-  const navbar = document.querySelector('#nav');
 
   burger.addEventListener('click', () => {
     nav.classList.toggle('active');
@@ -136,7 +135,3 @@ const navSlide = () => {
 };
 
 navSlide();
-$('.links a').on("click", function () {
-  $('.links').removeClass('active');
-  $('.burger').removeClass('toggle');
-});
